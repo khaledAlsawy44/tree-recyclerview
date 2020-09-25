@@ -13,7 +13,7 @@ Tree recyclerview implementation
       Material design
       Navigation component
       Viewbinding
-      arrow
+      Arrow-Either
       lottie
       moshi
       flowbinding
