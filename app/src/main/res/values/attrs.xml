@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialShapeAppearance">
+        <attr format="color" name="backgroundColor" />
+
+        <!-- Corner size to be used in the ShapeAppearance. All corners default to this value -->
+        <attr format="dimension|fraction" name="allCornersRadius" />
+        <!-- Top left corner size to be used in the ShapeAppearance. -->
+        <attr format="dimension|fraction" name="cornerRadiusTopLeft"/>
+        <!-- Top right corner size to be used in the ShapeAppearance. -->
+        <attr format="dimension|fraction" name="cornerRadiusTopRight"/>
+        <!-- Bottom right corner size to be used in the ShapeAppearance. -->
+        <attr format="dimension|fraction" name="cornerRadiusBottomRight"/>
+        <!-- Bottom left corner size to be used in the ShapeAppearance. -->
+        <attr format="dimension|fraction" name="cornerRadiusBottomLeft"/>
+
+        <!-- Corner family to be used in the ShapeAppearance. All corners default to this value -->
+        <attr format="enum" name="cornerType">
+            <enum name="rounded" value="0"/>
+            <enum name="cut" value="1"/>
+        </attr>
+        <!-- Top left corner family to be used in the ShapeAppearance. -->
+        <attr format="enum" name="cornerTypeTopLeft">
+            <enum name="rounded" value="0"/>
+            <enum name="cut" value="1"/>
+        </attr>
+        <!-- Top right corner family to be used in the ShapeAppearance. -->
+        <attr format="enum" name="cornerTypeTopRight">
+            <enum name="rounded" value="0"/>
+            <enum name="cut" value="1"/>
+        </attr>
+        <!-- Bottom right corner family to be used in the ShapeAppearance. -->
+        <attr format="enum" name="cornerTypeBottomRight">
+            <enum name="rounded" value="0"/>
+            <enum name="cut" value="1"/>
+        </attr>
+        <!-- Bottom left corner family to be used in the ShapeAppearance. -->
+        <attr format="enum" name="cornerTypeBottomLeft">
+            <enum name="rounded" value="0"/>
+            <enum name="cut" value="1"/>
+        </attr>
+
+        <attr name="android:elevation" />
+    </declare-styleable>
+
+    <declare-styleable name="PhoneEditText">
+        <attr name="android:hint" />
+        <attr name="mainPhoneId" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SingleLineComponent">
+        <attr name="startIconDrawable" format="reference" />
+        <attr name="endIconDrawable" format="reference" />
+        <attr name="android:text" />
+        <attr name="secondaryText" format="string" localization="suggested" />
+        <attr name="showDivider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SectionComponent">
+        <attr name="android:label" />
+        <attr name="android:text" />
+    </declare-styleable>
+</resources>
